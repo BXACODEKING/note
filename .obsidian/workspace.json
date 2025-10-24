@@ -1,0 +1,193 @@
+{
+  "main": {
+    "id": "c2932f0fe72cf784",
+    "type": "split",
+    "children": [
+      {
+        "id": "259b955bbcde9e2c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "830fd2e57641ad4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Notes/Linux命令.md",
+                "mode": "preview",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Linux命令"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "20467c9567eee78c",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ff683aedb4bd5b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "efb763e00067707b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "67e6c533d86a211f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "afc3bf71445d1b74",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f4ff2387f86c35b7",
+    "type": "split",
+    "children": [
+      {
+        "id": "7ca81d9c55739ebc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5d67591e1ef674a0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Notes/Linux命令.md",
+                "collapseAll": true,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Linux命令 的反向链接列表"
+            }
+          },
+          {
+            "id": "aae1eb45f4b3aa24",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "MyNotes/daily_2025-10-21.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "daily_2025-10-21 的出链列表"
+            }
+          },
+          {
+            "id": "86c5a0bea00b8a97",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "95585ec639b49db1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Notes/Linux命令.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Linux命令 的大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 341.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false
+    }
+  },
+  "active": "830fd2e57641ad4b",
+  "lastOpenFiles": [
+    "Diary/October_25/daily_2025-10-23.md",
+    "Notes/Linux命令.md",
+    "Project/编译方法.md",
+    "Project/CUIOT程序架构与运行流程详解.md",
+    "Diary/October_25/daily_2025-10-21.md",
+    "Diary/October_25/daily_2025-10-22.md",
+    "Diary/November_25/嵌入式开发工程师工作总结模板.md",
+    "Notes",
+    "Diary/November_25",
+    "Diary/October_25",
+    "Project",
+    "MyNotes/2025-10-23_日报.md",
+    "daily_2025-10-23.md",
+    "MyNotes/2025-10-22-段错误修复与属性上报适配.md",
+    "MyNotes/2025-10-21-每日工作总结.md",
+    "2025-10-20.md",
+    "未命名 1.base",
+    "未命名.base",
+    "Diary"
+  ]
+}
