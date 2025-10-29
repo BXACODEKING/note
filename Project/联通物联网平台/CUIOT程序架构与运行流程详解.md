@@ -10,13 +10,13 @@
 └──────────────────────┬──────────────────────────────────────────┘
                        │
         ┌──────────────┴──────────────┐
-        │   初始化阶段 (Initialization) │
+        │  初始化阶段 (Initialization) │
         └──────────────┬──────────────┘
                        │
         ┌──────────────┴────────────────────────┐
         │                                        │
    ┌────▼─────┐                          ┌──────▼──────┐
-   │ 基础初始化 │                          │ 服务初始化   │
+   │ 基础初始化 │                         │ 服务初始化   │
    └────┬─────┘                          └──────┬──────┘
         │                                        │
         │ mqtt_cloud_init()                      │ cuiot_service_init()
@@ -214,30 +214,55 @@ for (int i = 0; i < T_MAX_F; i++) {
    pthread_create(&tid_mqtt_getInfo, NULL, mqtt_new_handle_getInfo, ...)
 ```
 
-**配置示例：**
+##### **配置示例：**
+
 ```json
-{
-  "server": {
-    "cuiot": {
-      "protocol": "dmpcu",
-      "address": "mqtt.example.com",
-      "port": 1883,
-      "param": {
-        "client_id": "device_12345",
-        "username": "device_user",
-        "password": "device_pass",
-        "qos": 1,
-        "upload_sec": 60,
-        "heartbeat": 30,
-        "deviceInfo": {
-          "productKey": "cu10x0wd72sk56jf",
-          "deviceName": "gateway01",
-          "deviceKey": "2jZA855df8t9jCD"
+"server": {
+        "cuiot": {
+            "description": "",
+            "protocol": "cuiotCloud",
+            "host": "dmp-mqtt.cuiot.cn",
+            "port": 1883,
+            "param": {
+                "client_id": "",
+                "qos": 0,
+                "keepalive": 30,
+                "reconnect_time": 5,
+                "report_interval":60,
+                "mqtt_version": 0,
+                "publish": "",
+                "subscribe": "",
+                "alarm_publish": "",
+                "history_data_publish": "",
+                "package_nums": 10,
+                "package_limitedtime": 5,
+                "pkey": "Z1NRXL2507291914",
+                "gatewayInfo": {
+                    "productKey": "cu4ss7hvdmubgtzf",
+                    "deviceKey": "IsvFDsXAVs1zSHb",
+                    "productSecret": "1065089c0ef35c20d87fd521d35b2093",
+                    "deviceSecret": "989041A88FC77A2A37678E589AD6E4D4",
+                    "token": "None",
+                    "productName": "Z1",
+                    "deviceName": "Z1TEST",
+                    "authType": "2",
+                    "signMethod": "0",
+                    "operator": "0",
+                    "logoutSet": "0",
+                    "loginTime": "10"
+                },
+                "username": "",
+                "password": "",
+                "tls": {
+                    "disable": true
+                }
+            },
+            "upload": {
+                "mode": 2,
+                "period": 30
+            }
         }
-      }
     }
-  }
-}
 ```
 
 ---
