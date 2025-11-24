@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "02dd978d1f1d8ed0",
+        "id": "9af7ce7ec2de35ae",
         "type": "tabs",
         "children": [
           {
@@ -13,32 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Project/联通物联网平台/CUIOT_MQTT项目深度学习方案_自下而上.md",
+                "file": "Project/Z3中车mqtt协议/hnzcii_mqtt结构梳理.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CUIOT_MQTT项目深度学习方案_自下而上"
-            }
-          }
-        ]
-      },
-      {
-        "id": "35cda5b879a46364",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2bc3a787c52de457",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Project/联通物联网平台/CUIOT_MQTT项目核心流程图.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "CUIOT_MQTT项目核心流程图"
+              "title": "hnzcii_mqtt结构梳理"
             }
           }
         ]
@@ -98,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 355.5,
-    "collapsed": true
+    "width": 249.5
   },
   "right": {
     "id": "f4ff2387f86c35b7",
@@ -115,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Project/联通物联网平台/CUIOT_MQTT项目核心流程图.md",
+                "file": "Diary/November_25/2025-11-01-学习日志.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "CUIOT_MQTT项目核心流程图 的反向链接列表"
+              "title": "2025-11-01-学习日志 的反向链接列表"
             }
           },
           {
@@ -134,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Project/联通物联网平台/CUIOT_MQTT项目核心流程图.md",
+                "file": "Diary/November_25/2025-11-01-学习日志.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "CUIOT_MQTT项目核心流程图 的出链列表"
+              "title": "2025-11-01-学习日志 的出链列表"
             }
           },
           {
@@ -163,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Project/联通物联网平台/CUIOT_MQTT项目核心流程图.md",
+                "file": "Diary/November_25/2025-11-01-学习日志.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "CUIOT_MQTT项目核心流程图 的大纲"
+              "title": "2025-11-01-学习日志 的大纲"
             }
           }
         ]
@@ -190,43 +169,43 @@
       "bases:创建新数据库": false
     }
   },
-  "active": "2bc3a787c52de457",
+  "active": "cf06264cdd84dd80",
   "lastOpenFiles": [
+    "Project/联创拓值RDP协议移植/DTU业务架构与功能说明.md",
+    "Project/Z3中车mqtt协议/hnzcii_mqtt结构梳理.md",
     "Project/联通物联网平台/CUIOT_MQTT项目深度学习方案_自下而上.md",
     "Project/联通物联网平台/CUIOT_MQTT项目核心流程图.md",
-    "Project/联通物联网平台/CUIOT程序架构与运行流程详解.md",
-    "Project/联通物联网平台/链表系统.md",
-    "Project/联通物联网平台/routerweb网页修改细节.md",
-    "Diary/October_25/daily/daily_2025-10-29.md",
-    "Project/编译方法.md",
-    "Diary/October_25/daily/daily_2025-10-30.md",
-    "Diary/October_25/daily/daily_2025-10-28.md",
-    "Diary/October_25/daily/daily_2025-10-29 1.md",
-    "Notes/Linux命令.md",
-    "Notes/Git命令.md",
-    "Diary/October_25/daily/daily_2025-10-27.md",
-    "Diary/October_25/daily/daily_2025-10-22.md",
-    "Diary/October_25/daily/daily_2025-10-23.md",
-    "Diary/October_25/daily/daily_2025-10-24.md",
     "Diary/October_25/week/week_2025-10-24.md",
+    "Diary/November_25/daily/daily_2025-11-18.md",
+    "Diary/November_25/daily/daily_2025-11-13.md",
+    "Diary/November_25/daily/daily_2025-11-07.md",
+    "Diary/November_25/daily/daily_2025-11-06.md",
+    "Diary/November_25/daily/daily_2025-11-05.md",
+    "Diary/November_25/daily/daily_2025-11-04.md",
+    "Diary/November_25/daily/daily_2025-11-03.md",
+    "Diary/November_25/daily/daily_2025-11-01.md",
+    "Diary/October_25/daily/daily_2025-10-31.md",
+    "Diary/October_25/daily/daily_2025-10-30.md",
+    "Diary/October_25/daily/daily_2025-10-29.md",
+    "Diary/October_25/daily/daily_2025-10-28.md",
+    "Diary/October_25/daily/daily_2025-10-27.md",
+    "Diary/October_25/daily/daily_2025-10-24.md",
+    "Diary/October_25/daily/daily_2025-10-23.md",
+    "Diary/October_25/daily/daily_2025-10-22.md",
+    "Diary/October_25/daily/daily_2025-10-21.md",
+    "Project/联通物联网平台/Base64编解码实现详解.md",
+    "Project/联通物联网平台/链表系统.md",
+    "Project/联通物联网平台/进入后台输入CLI命令方法.md",
+    "Project/联创拓值RDP协议移植",
+    "Notes/Linux命令.md",
+    "Project/Z3中车mqtt协议",
+    "Project/新建文件夹",
+    "Diary/November_25/daily/daily.txt",
+    "Project/TR069_CPE平台",
+    "Diary/November_25/week",
+    "Diary/November_25/daily",
     "Diary/October_25/week",
     "Diary/October_25/daily",
-    "Diary/October_25/2025-10-27_每日总结.md",
-    "Makefile.md",
-    "Makefile",
-    "Project/联通物联网平台/2025-10-27-修改文件清单美化版.md",
-    "Project/联通物联网平台",
-    "未命名",
-    "未命名.base",
-    "未命名 1.base",
-    "Diary/October_25/daily/daily_2025-10-21.md",
-    "Diary/November_25/嵌入式开发工程师工作总结模板.md",
-    "Notes",
-    "Diary/November_25",
-    "Diary/October_25",
-    "MyNotes/2025-10-23_日报.md",
-    "daily_2025-10-23.md",
-    "MyNotes/2025-10-22-段错误修复与属性上报适配.md",
-    "MyNotes/2025-10-21-每日工作总结.md"
+    "Makefile"
   ]
 }
