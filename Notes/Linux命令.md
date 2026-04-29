@@ -26,7 +26,10 @@ mv a.txt b.txt           # 重命名 a.txt → b.txt
 mv test/ backup/         # 移动 test 目录到 backup/
 mv -f a.txt /tmp/        # 强制移动
 ```
-
+sz = 从路由器发送文件到你的电脑，执行 `sz 文件名` 就能自动弹窗下载。
+tar -czvf file.tar.gz dir/    — 打包(-c)+压缩(-z)+显示过程(-v)+指定文件名(-f)
+tar -xzvf file.tar.gz           — 解压(-x)
+dd if=xxx.img of=/dev/mmcblk0p6 bs=4M status=progress;  sync 把一个镜像文件写入到指定分区
 
 ---
 
@@ -39,6 +42,8 @@ mv -f a.txt /tmp/        # 强制移动
 `uname -a` — 查看系统信息  
 `cat /proc/cpuinfo` — 查看CPU信息  
 `cat /proc/meminfo` — 查看内存信息  
+`docker inspect aicore` — 查看容器相关参数
+`docker exec -it aicore bash` — 进入已有容器 -i(保持标准输入) -t(分配一个终端)
 
 ---
 
@@ -84,6 +89,9 @@ mv -f a.txt /tmp/        # 强制移动
 `find / -name "file"` — 查找文件  
 `echo $PATH` — 查看环境变量  
 `history` — 查看命令历史  
+`strings libhdg3.so | grep aaa`  -查询库中字符
+`ln -s /home/usr/bin/myapp /usr/bin/myapp` ——ln -s  源文件  目标链接路径
+
 
 ---
 
